@@ -1,4 +1,4 @@
-namespace Hello
+﻿namespace Hello
 {
     public partial class Form1 : Form
     {
@@ -10,8 +10,10 @@ namespace Hello
         private void btnClick_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Clicked!");
+
             int a = 990;
-            
+
+ 
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -23,9 +25,11 @@ namespace Hello
         {
             if (!checkBox1.Checked)
             {
+
                 MessageBox.Show("You uncheck Student!");
             }
             else MessageBox.Show("You Checked Studnet!");
         }
+
     }
 }
