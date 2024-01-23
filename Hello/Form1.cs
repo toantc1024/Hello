@@ -11,7 +11,6 @@ namespace Hello
         {
             MessageBox.Show("Clicked!");
             int a = 3;
-            lblResult.Text = a.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
