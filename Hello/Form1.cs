@@ -17,5 +17,17 @@ namespace Hello
         {
 
         }
+
+        private void txtSang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel1.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://shopee.com/index.html");
+
+        }
     }
 }

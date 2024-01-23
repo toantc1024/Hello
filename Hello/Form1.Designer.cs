@@ -30,6 +30,7 @@
         {
             btnClick = new Button();
             txtSang = new Label();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // btnClick
@@ -51,12 +52,25 @@
             txtSang.Size = new Size(98, 20);
             txtSang.TabIndex = 1;
             txtSang.Text = "Sang dep trai";
+            txtSang.Click += txtSang_Click;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(524, 267);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(76, 20);
+            linkLabel1.TabIndex = 2;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "linkLabel1";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(linkLabel1);
             Controls.Add(txtSang);
             Controls.Add(btnClick);
             Margin = new Padding(3, 4, 3, 4);
@@ -71,5 +85,6 @@
 
         private Button btnClick;
         private Label txtSang;
+        private LinkLabel linkLabel1;
     }
 }
