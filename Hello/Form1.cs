@@ -18,5 +18,6 @@ namespace Hello
         {
 
         }
+        class HocSinh
     }
 }
