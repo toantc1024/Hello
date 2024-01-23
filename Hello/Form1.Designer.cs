@@ -39,6 +39,7 @@
             btnClick.TabIndex = 0;
             btnClick.Text = "Click me";
             btnClick.UseVisualStyleBackColor = true;
+            btnClick.Click += btnClick_Click;
             // 
             // Form1
             // 

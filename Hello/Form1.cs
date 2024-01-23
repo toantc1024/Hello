@@ -6,5 +6,10 @@ namespace Hello
         {
             InitializeComponent();
         }
+
+        private void btnClick_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Clicked!");
+        }
     }
 }
