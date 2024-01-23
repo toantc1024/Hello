@@ -14,5 +14,18 @@ namespace Hello
         string b;
         string d;
         string e;
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        public string chat = "Chao ban Anh Ngoc";
     }
 }
