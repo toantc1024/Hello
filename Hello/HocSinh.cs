@@ -8,7 +8,7 @@ namespace Hello
 {
     internal class HocSinh22110261
     {
-        string name = "Nguyen Quoc Tuan";
-        string id = "22110261";
+        public string name = "Nguyen Quoc Tuan";
+        public string id = "22110261";
     }
 }
