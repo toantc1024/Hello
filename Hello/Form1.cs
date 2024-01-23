@@ -16,7 +16,7 @@ namespace Hello
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("hole!");
+            MessageBox.Show("holo!");
         }
     }
 }
