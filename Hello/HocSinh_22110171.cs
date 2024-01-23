@@ -13,7 +13,15 @@ namespace Hello
         private string mail;
         public HocSinh_22110171() { }
         string a;
-        int a = 3;
+        string b;
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+
 
     }
 }
