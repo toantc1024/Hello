@@ -12,6 +12,6 @@ namespace Hello
         private int age;
         private string mail;
         public HocSinh_22110171() { }
-
+        string a;
     }
 }
