@@ -15,7 +15,11 @@ namespace Hello
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("My name is Kiet");
         }
+    }
+    public class NT_Kiet_22110170
+    {
+        int mssv = 500;
     }
 }
