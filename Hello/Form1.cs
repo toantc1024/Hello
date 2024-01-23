@@ -17,5 +17,14 @@ namespace Hello
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!checkBox1.Checked)
+            {
+                MessageBox.Show("You uncheck Student!");
+            }
+            else MessageBox.Show("You Checked Studnet!");
+        }
     }
 }
