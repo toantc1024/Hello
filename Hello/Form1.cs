@@ -11,12 +11,12 @@ namespace Hello
         {
             MessageBox.Show("Clicked!");
             int a = 3;
-            int b = 4;
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("hole!");
         }
     }
 }
