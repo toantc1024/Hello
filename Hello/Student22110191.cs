@@ -9,6 +9,6 @@ namespace Hello
     internal class Student22110191
     {
         public string name = "BuiThiAnhNgoc";
-        public string id = 22110191;
+        public string id = "22110191";
     }
 }
