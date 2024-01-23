@@ -20,6 +20,7 @@ namespace Hello
             Name = "Duy Tan";
             Age = 21;
             id = 22110225;
+            int c = 2112;
         }
     }
 }
