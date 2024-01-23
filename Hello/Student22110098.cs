@@ -13,5 +13,6 @@ namespace Hello
         int a;
         string b;
         string d;
+        string name1 = "nhin cai cho gi";
     }
 }
