@@ -9,7 +9,7 @@ namespace Hello
 {
     internal class HocSinh22110261
     {
-        public string name = "Nguyen Quoc Tuan khunggggggg";
+        public string name = "Nguyen Quoc Tuan khunggggggg dien";
         public string id = "22110261";
         string a;
 
