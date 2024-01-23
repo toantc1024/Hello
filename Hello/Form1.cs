@@ -11,6 +11,7 @@ namespace Hello
         {
             MessageBox.Show("Clicked!");
             int a = 3;
+            int b = 10;
         }
 
         private void Form1_Load(object sender, EventArgs e)
