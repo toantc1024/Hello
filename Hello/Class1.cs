@@ -18,7 +18,7 @@ namespace Hello
         public Student_22110225() 
         {
             Name = "Duy Tan";
-            Age = 20;
+            Age = 19;
             id = 22110225;
         }
     }
