@@ -9,7 +9,7 @@ namespace Hello
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clicked!");
+            MessageBox.Show("Clicked from branch of THANH");
             int a = 3;
         }
 
