@@ -10,7 +10,8 @@ namespace Hello
     {
         private string name;
         private int age;
-        private int age2;
-        private int x;
+        private string mail;
+        public HocSinh_22110171() { }
+
     }
 }
