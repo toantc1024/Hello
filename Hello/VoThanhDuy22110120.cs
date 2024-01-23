@@ -8,5 +8,7 @@ namespace Hello
 {
     internal class VoThanhDuy22110120
     {
+        public string name = "Vo Thanh Duy";
+        public string id = "22110120";
     }
 }
