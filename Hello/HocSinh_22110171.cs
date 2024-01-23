@@ -10,5 +10,6 @@ namespace Hello
     {
         private string name;
         private int age;
+        private int age2;
     }
 }
