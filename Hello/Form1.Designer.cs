@@ -28,33 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnClick = new Button();
-            SuspendLayout();
+            this.btnClick = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // btnClick
             // 
-            btnClick.Location = new Point(177, 95);
-            btnClick.Name = "btnClick";
-            btnClick.Size = new Size(75, 23);
-            btnClick.TabIndex = 0;
-            btnClick.Text = "Click me";
-            btnClick.UseVisualStyleBackColor = true;
-            btnClick.Click += btnClick_Click;
+            this.btnClick.Location = new System.Drawing.Point(253, 158);
+            this.btnClick.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClick.Name = "btnClick";
+            this.btnClick.Size = new System.Drawing.Size(107, 38);
+            this.btnClick.TabIndex = 0;
+            this.btnClick.Text = "Click me";
+            this.btnClick.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(686, 239);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 34);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(btnClick);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1143, 750);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClick);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
 
         private Button btnClick;
+        private Button button1;
     }
 }
