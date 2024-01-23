@@ -10,6 +10,7 @@ namespace Hello
     {
         public string name = "Nguyen Ngoc Hai Anh";
         public string id = "22110098";
+        int b;
         string a;
     }
 }
