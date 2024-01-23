@@ -8,6 +8,6 @@ namespace Hello
 {
     internal class Student22110098
     {
-        public string name = "Nguyen Ngoc Chau";
+        public string name = "Nguyen Ngoc Anh";
     }
 }
