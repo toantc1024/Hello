@@ -18,4 +18,8 @@ namespace Hello
             MessageBox.Show("My name is Kiet");
         }
     }
+    public class NT_Kiet_22110170
+    {
+        int mssv = 22110170;
+    }
 }
