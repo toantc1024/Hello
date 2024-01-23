@@ -10,7 +10,7 @@ namespace Hello
     {
         int a = 1;
         int b = 2;
-        int c = a + base;gvvv
-        Console.WriteLn
+        int c = a + base;
+        // hello quan
     }
 }
