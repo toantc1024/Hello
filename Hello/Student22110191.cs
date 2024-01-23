@@ -16,7 +16,7 @@ namespace Hello
 
         public Student22110191()
         {
-            Ten = "AnhNgoc";
+            Ten = "AnhNgoc đần";
             Tuoi = 20;
         }
     }
