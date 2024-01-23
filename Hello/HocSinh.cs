@@ -13,7 +13,7 @@ namespace Hello
         public string id = "22110098";
         int b;
         string a;
-
+        int c = 200;
 
 
         string c;
