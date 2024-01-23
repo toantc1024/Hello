@@ -10,5 +10,6 @@ namespace Hello
     {
         public string name = "Nguyen Quoc Tuan";
         public string id = "22110261";
+        int a;
     }
 }
