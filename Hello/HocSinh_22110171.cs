@@ -9,5 +9,6 @@ namespace Hello
     internal class HocSinh_22110171
     {
         private string name;
+        private int age;
     }
 }
