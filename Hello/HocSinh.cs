@@ -12,5 +12,11 @@ namespace Hello
         public string id = "22110098";
         int b;
         string a;
+
+
+
+
+
+        public string chat = "Chao ban Anh Ngoc";
     }
 }
