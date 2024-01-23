@@ -8,6 +8,6 @@ namespace Hello
 {
     internal class _22110154
     {
-       
+       THAIHUNG
     }
 }
