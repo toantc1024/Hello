@@ -15,7 +15,7 @@ namespace Hello
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("My name is Kiet");
         }
     }
 }
