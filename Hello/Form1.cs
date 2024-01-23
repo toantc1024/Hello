@@ -9,13 +9,13 @@ namespace Hello
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clicked from branch of THANH");
+            MessageBox.Show("Clicked from branch of THANH code n");
             int a = 3;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("");
         }
     }
 }
