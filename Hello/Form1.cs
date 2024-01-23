@@ -10,7 +10,7 @@ namespace Hello
         private void btnClick_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Clicked!");
-            int a = 500;
+            int a = 600;
         }
 
         private void Form1_Load(object sender, EventArgs e)
