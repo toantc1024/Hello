@@ -21,6 +21,7 @@ namespace Hello
             Age = 21;
             id = 22110225;
             int a = 0;
+            int c = 2112;
         }
 
 
