@@ -2,7 +2,10 @@ namespace Hello
 {
     internal static class Program
     {
+        //aaaaaa
         /// <summary>
+        /// 
+        /// 
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
