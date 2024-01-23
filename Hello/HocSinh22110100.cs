@@ -11,6 +11,6 @@ namespace Hello
         string name = "Nguyen Nhat Anh";
         string id = "22110100";
 
-        string what = "?????????";
+        string address = "Viet nam";
     }
 }
