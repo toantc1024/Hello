@@ -9,6 +9,7 @@ namespace Hello
     internal class Hocsinh
     {
         //VuDucTuan-18110231
+        //another new line
         //new line
     }
 }
