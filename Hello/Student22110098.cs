@@ -26,6 +26,6 @@ namespace Hello
         
         
         
-        public string chat = "Chao ban Anh Ngoc";
+        
     }
 }
