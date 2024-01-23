@@ -13,5 +13,7 @@ namespace Hello
         private string mail;
         public HocSinh_22110171() { }
         string a;
+        int a = 3;
+
     }
 }
