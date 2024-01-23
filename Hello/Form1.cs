@@ -17,5 +17,10 @@ namespace Hello
         {
 
         }
+
+        public void Test()
+        {
+            MessageBox.Show("Test - 007");
+        }
     }
 }
