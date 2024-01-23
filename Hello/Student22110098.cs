@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hello
 {
-    class Student_22110248
+    internal class Student22110098
     {
-        public string name = "Toan Tran Cong";
-        
+        public string name = "Nguyen Ngoc Hai Anh";
     }
 }
