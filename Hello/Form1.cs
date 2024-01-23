@@ -26,7 +26,7 @@ namespace Hello
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://shopee.com/index.html");
+            System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1rtraWi-Lcwnvf6vVJPXkShDEbc6gOlanZYb5M8MA39g/edit#gid=0");
 
         }
     }
