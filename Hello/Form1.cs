@@ -27,5 +27,7 @@
             }
             else MessageBox.Show("You choose Student!");
         }
+
+       
     }
 }
