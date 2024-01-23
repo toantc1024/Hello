@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnClick = new Button();
+            lblResult = new Label();
             SuspendLayout();
             // 
             // btnClick
@@ -41,20 +42,32 @@
             btnClick.UseVisualStyleBackColor = true;
             btnClick.Click += btnClick_Click;
             // 
+            // lblResult
+            // 
+            lblResult.AutoSize = true;
+            lblResult.Location = new Point(302, 99);
+            lblResult.Name = "lblResult";
+            lblResult.Size = new Size(39, 15);
+            lblResult.TabIndex = 1;
+            lblResult.Text = "Result";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblResult);
             Controls.Add(btnClick);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnClick;
+        private Label lblResult;
     }
 }
