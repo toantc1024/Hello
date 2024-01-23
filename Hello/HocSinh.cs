@@ -17,5 +17,11 @@ namespace Hello
 
 
         string c;
+
+
+
+
+
+        public string chat = "Chao ban Anh Ngoc";
     }
 }
